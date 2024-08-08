@@ -1,0 +1,97 @@
+﻿@page "/Miles95"
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@using ApexCharts
+@rendermode InteractiveServer
+@inject HttpClient Client // Injicerer HttpClient for at kunne lave HTTP-anmodninger
+
+<h1>Benzinpriser</h1>
+
+@if (branches != null) // Tjekker om data er tilgængelige
+{
+    <ApexChart TItem="GitHubBranch" Title="Orders Value"
+               XAxisType="XAxisType.Datetime">
+
+        <ApexPointSeries TItem="GitHubBranch"
+                         Items="branches"
+                         Name="Net Value"
+                         SeriesType="SeriesType.Line"
+                         XValue="@(e => e.Date)"
+                         YValue="@(e => e.Price)" />
+    </ApexChart>
+}
+
+@code {
+    private ApexChartOptions<GitHubBranch> options = new ApexCharts.ApexChartOptions<GitHubBranch>(); // Grafkonfiguration
+    private List<GitHubBranch>? branches; // Liste til benzinpriser
+
+    protected override async Task OnInitializedAsync()
+    {
+        options.Debug = true; // Aktiverer debug-mode
+        options.ForecastDataPoints = new ForecastDataPoints
+            {
+                Count = 3, 
+                DashArray = 4, 
+                FillOpacity = 0.5 
+            };
+        options.Tooltip = new ApexCharts.Tooltip
+            {
+                X = new TooltipX { Format = "MMMM yyyy" }, // X-akse tooltip format
+                Y = new TooltipY
+                {
+                    Title = new TooltipYTitle { Formatter = "function(name) { return name + ':' }" }, // Formatterer Y-akse titel
+                    Formatter = "function(value, { series, seriesIndex, dataPointIndex, w }) { return '$' + value }" // Formatterer Y-akse værdi
+                }
+            };
+        options.Subtitle = new Subtitle { OffsetY = 15, Text = "DateTime sample with options" }; // Undertitel
+        options.Xaxis = new XAxis
+            {
+                Title = new AxisTitle
+                {
+                    OffsetY = 5,
+                    Text = "Month", // X-akse titel
+                    Style = new AxisTitleStyle { FontSize = "14px", Color = "lightgrey" } // Stil for X-akse titel
+                },
+                AxisBorder = new AxisBorder
+                {
+                    Height = 2 // Højde på X-akse grænse
+                }
+            };
+        options.Yaxis = new List<YAxis>
+        {
+            new YAxis
+            {
+                DecimalsInFloat = 0, // Decimaler på Y-aksen
+                Labels = new YAxisLabels { Rotate = -45, Style = new AxisLabelStyle { FontSize = "10px" } }, // Y-akse labels
+                Title = new AxisTitle { Text = "Value", Style = new AxisTitleStyle { FontSize = "14px", Color = "lightgrey" } } // Y-akse titel
+            }
+        };
+
+        options.Annotations = new Annotations
+            {
+                Yaxis = new List<AnnotationsYAxis>
+            {
+                new AnnotationsYAxis
+                {
+                    Y = 50000, 
+                    BorderWidth = 2, 
+                    StrokeDashArray = 5, // Stiplet linje
+                    BorderColor = "red", 
+                    Label = new Label { Text = "Monthly Target" } 
+                }
+            }
+            };
+
+        // Hent data fra API
+        branches = await Client.GetFromJsonAsync<List<GitHubBranch>>("https://magsapi.onrender.com/api/miles95");
+
+        // Opdater UI
+        StateHasChanged();
+    }
+
+    public class GitHubBranch
+    {
+        public DateTime Date { get; set; } // Dato for benzinprisen
+        public decimal Price { get; set; } // Benzinpris
+    }
+}

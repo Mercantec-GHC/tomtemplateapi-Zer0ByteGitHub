@@ -1,0 +1,53 @@
+﻿@page "/"
+
+@* Import necessary libraries *@
+@using System.Timers
+
+@* Page title *@
+<PageTitle>Home</PageTitle>
+
+@* Page content *@
+<div class="container">
+    <h1 class="animated-title">Hello, Tobias!</h1>
+    <p class="intro-text">Have a great day and keep going!</p>
+    <div class="card">
+        <h2>Welcome to Your New Blazor App</h2>
+        <p>Explore the wonderful world of Blazor and create interactive web UIs with ease.</p>
+    </div>
+</div>
+
+@code {
+    // You can add C# code here if needed
+}
+
+@* CSS styling and animations *@
+<style>
+    .container {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .animated-title {
+        font-size: 3em;
+        animation: fadeIn 2s ease-in-out;
+    }
+
+    .intro-text {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 20px auto;
+        width: 80%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+
+ 
+    
+</style>

@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hexburn\\Downloads\\API\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE221EA-4260-4190-802C-1A244C5F2274}|API\\API.csproj|c:\\users\\hexburn\\downloads\\api\\api\\api\\components\\pages\\price difference.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DE221EA-4260-4190-802C-1A244C5F2274}|API\\API.csproj|solutionrelative:api\\components\\pages\\price difference.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE221EA-4260-4190-802C-1A244C5F2274}|API\\API.csproj|c:\\users\\hexburn\\downloads\\api\\api\\api\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DE221EA-4260-4190-802C-1A244C5F2274}|API\\API.csproj|solutionrelative:api\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE221EA-4260-4190-802C-1A244C5F2274}|API\\API.csproj|c:\\users\\hexburn\\downloads\\api\\api\\api\\components\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DE221EA-4260-4190-802C-1A244C5F2274}|API\\API.csproj|solutionrelative:api\\components\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE221EA-4260-4190-802C-1A244C5F2274}|API\\API.csproj|c:\\users\\hexburn\\downloads\\api\\api\\api\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DE221EA-4260-4190-802C-1A244C5F2274}|API\\API.csproj|solutionrelative:api\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE221EA-4260-4190-802C-1A244C5F2274}|API\\API.csproj|c:\\users\\hexburn\\downloads\\api\\api\\api\\components\\pages\\miles95.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DE221EA-4260-4190-802C-1A244C5F2274}|API\\API.csproj|solutionrelative:api\\components\\pages\\miles95.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE221EA-4260-4190-802C-1A244C5F2274}|API\\API.csproj|c:\\users\\hexburn\\downloads\\api\\api\\api\\components\\pages\\diesel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DE221EA-4260-4190-802C-1A244C5F2274}|API\\API.csproj|solutionrelative:api\\components\\pages\\diesel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "API\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "API\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T12:44:34.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\Components\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "API\\Components\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\Components\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "API\\Components\\Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T12:44:27.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "API\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "API\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T12:35:12.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Price Difference.razor",
+              "DocumentMoniker": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\Components\\Pages\\Price Difference.razor",
+              "RelativeDocumentMoniker": "API\\Components\\Pages\\Price Difference.razor",
+              "ToolTip": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\Components\\Pages\\Price Difference.razor",
+              "RelativeToolTip": "API\\Components\\Pages\\Price Difference.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T11:59:22.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Diesel.razor",
+              "DocumentMoniker": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\Components\\Pages\\Diesel.razor",
+              "RelativeDocumentMoniker": "API\\Components\\Pages\\Diesel.razor",
+              "ToolTip": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\Components\\Pages\\Diesel.razor",
+              "RelativeToolTip": "API\\Components\\Pages\\Diesel.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T11:59:21.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Miles95.razor",
+              "DocumentMoniker": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\Components\\Pages\\Miles95.razor",
+              "RelativeDocumentMoniker": "API\\Components\\Pages\\Miles95.razor",
+              "ToolTip": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\Components\\Pages\\Miles95.razor",
+              "RelativeToolTip": "API\\Components\\Pages\\Miles95.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T11:59:20.312Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

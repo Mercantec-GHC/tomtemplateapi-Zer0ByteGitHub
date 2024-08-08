@@ -1,0 +1,25 @@
+﻿@page "/"
+@namespace API.Components.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Your App Title</title>
+    <!-- Add ApexCharts CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@latest/dist/apexcharts.css">
+    <!-- Add ApexCharts JS -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts@latest"></script>
+    <!-- Add Blazor Server CSS -->
+    <link href="css/app.css" rel="stylesheet" />
+    <!-- Add Blazor Server Bootstrap CSS -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <base href="~/" />
+</head>
+<body>
+    <app>
+        <component type="typeof(App)" render-mode="ServerPrerendered" />
+    </app>
+    <script src="_framework/blazor.server.js"></script>
+</body>
+</html>
