@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\API.csproj": {}
+    "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\API.csproj": {
+    "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\API.csproj",
+        "projectPath": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\API.csproj",
         "packagesPath": "C:\\Users\\hexburn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\obj\\",
+        "outputPath": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hexburn\\AppData\\Roaming\\NuGet\\NuGet.Config",

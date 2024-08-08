@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ap8r42pCnDke1cRjiBz6WEaCE9xtH2rSOhF0A/AAtV0=",
+  "Hash": "j5oAZd6WfCflNjEX+ehfQmxpizetqADFX3RwBP/t/dI=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "API\\wwwroot",
       "Source": "API",
-      "ContentRoot": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "Pattern": "**"
     }
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "C:\\Users\\hexburn\\.nuget\\packages\\blazorise\\1.6.0\\staticwebassets\\vendors\\sha512.js"
     },
     {
-      "Identity": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API.styles.css",
+      "Identity": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API.styles.css",
       "SourceId": "API",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/API",
       "RelativePath": "API.styles.css",
       "AssetKind": "All",
@@ -1363,13 +1363,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API.styles.css"
+      "OriginalItemSpec": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\obj\\Debug\\net8.0\\scopedcss\\bundle\\API.styles.css"
     },
     {
-      "Identity": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\API.bundle.scp.css",
+      "Identity": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\API.bundle.scp.css",
       "SourceId": "API",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/API",
       "RelativePath": "API.bundle.scp.css",
       "AssetKind": "All",
@@ -1382,13 +1382,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\API.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\API.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\wwwroot\\app.css",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\wwwroot\\favicon.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hexburn\\Downloads\\API\\API\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hexburn\\tomtemplateapi-Zer0ByteGitHub\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
